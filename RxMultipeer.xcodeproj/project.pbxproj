@@ -10,8 +10,6 @@
 		D80EC2F41BBF372B006BF124 /* RxMultipeerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80EC2F31BBF372B006BF124 /* RxMultipeerError.swift */; };
 		D813DA421BB1BA1000BEB501 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D813DA401BB1BA1000BEB501 /* RxCocoa.framework */; };
 		D813DA431BB1BA1000BEB501 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D813DA411BB1BA1000BEB501 /* RxSwift.framework */; };
-		D813DA491BB1BADE00BEB501 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D813DA471BB1BADE00BEB501 /* Nimble.framework */; };
-		D813DA4A1BB1BADE00BEB501 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D813DA481BB1BADE00BEB501 /* Quick.framework */; };
 		D8236D491B71A9EB00EF5DE6 /* ResourceState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8236D481B71A9EB00EF5DE6 /* ResourceState.swift */; };
 		D8236D4D1B71DE4400EF5DE6 /* MultipeerConnectivitySession.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8236D4C1B71DE4400EF5DE6 /* MultipeerConnectivitySession.swift */; };
 		D8236D571B71EA7800EF5DE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8236D561B71EA7800EF5DE6 /* AppDelegate.swift */; };
@@ -23,11 +21,7 @@
 		D82568581C69498C005ADB0F /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D813DA411BB1BA1000BEB501 /* RxSwift.framework */; };
 		D82E19E01C87F2040021194C /* RxMultipeer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D88C85EB1B6F2B1700CF42CF /* RxMultipeer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D8327BD41BD08FE9009BC6FB /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8327BD31BD08FE9009BC6FB /* Weak.swift */; };
-		D86675A21C6B3F1D005A9A72 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86675A01C6B3E10005A9A72 /* RxBlocking.framework */; };
-		D86675A51C6B40FD005A9A72 /* Data.txt in Resources */ = {isa = PBXBuildFile; fileRef = D86675A41C6B40FD005A9A72 /* Data.txt */; };
-		D88C85F71B6F2B1700CF42CF /* RxMultipeer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88C85EB1B6F2B1700CF42CF /* RxMultipeer.framework */; };
 		D88C86081B6F2D9000CF42CF /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88C86071B6F2D9000CF42CF /* MultipeerConnectivity.framework */; };
-		D88C860A1B6F307700CF42CF /* IntegrationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88C86091B6F307700CF42CF /* IntegrationSpec.swift */; };
 		D88C860C1B6F308600CF42CF /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88C860B1B6F308600CF42CF /* Client.swift */; };
 		D88C86131B6F4F3700CF42CF /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88C86111B6F4F3700CF42CF /* Session.swift */; };
 		D88C86161B7060E000CF42CF /* MockSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88C86151B7060E000CF42CF /* MockSession.swift */; };
@@ -35,13 +29,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		D825685B1C69506C005ADB0F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D88C85E21B6F2B1700CF42CF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D88C85EA1B6F2B1700CF42CF;
-			remoteInfo = RxMultipeer;
-		};
-		D88C85F81B6F2B1700CF42CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D88C85E21B6F2B1700CF42CF /* Project object */;
 			proxyType = 1;
@@ -85,7 +72,6 @@
 		D86675A41C6B40FD005A9A72 /* Data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Data.txt; sourceTree = "<group>"; };
 		D88C85EB1B6F2B1700CF42CF /* RxMultipeer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMultipeer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88C85EF1B6F2B1700CF42CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D88C85F61B6F2B1700CF42CF /* RxMultipeerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxMultipeerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88C85FC1B6F2B1700CF42CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D88C86071B6F2D9000CF42CF /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
 		D88C86091B6F307700CF42CF /* IntegrationSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegrationSpec.swift; sourceTree = "<group>"; };
@@ -111,17 +97,6 @@
 				D88C86081B6F2D9000CF42CF /* MultipeerConnectivity.framework in Frameworks */,
 				D813DA421BB1BA1000BEB501 /* RxCocoa.framework in Frameworks */,
 				D813DA431BB1BA1000BEB501 /* RxSwift.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D88C85F31B6F2B1700CF42CF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D88C85F71B6F2B1700CF42CF /* RxMultipeer.framework in Frameworks */,
-				D813DA491BB1BADE00BEB501 /* Nimble.framework in Frameworks */,
-				D813DA4A1BB1BADE00BEB501 /* Quick.framework in Frameworks */,
-				D86675A21C6B3F1D005A9A72 /* RxBlocking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,7 +162,6 @@
 			isa = PBXGroup;
 			children = (
 				D88C85EB1B6F2B1700CF42CF /* RxMultipeer.framework */,
-				D88C85F61B6F2B1700CF42CF /* RxMultipeerTests.xctest */,
 				D8236D521B71EA7800EF5DE6 /* RxMultipeer Example.app */,
 			);
 			name = Products;
@@ -293,25 +267,6 @@
 			productReference = D88C85EB1B6F2B1700CF42CF /* RxMultipeer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D88C85F51B6F2B1700CF42CF /* RxMultipeerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D88C86041B6F2B1700CF42CF /* Build configuration list for PBXNativeTarget "RxMultipeerTests" */;
-			buildPhases = (
-				D88C85F21B6F2B1700CF42CF /* Sources */,
-				D88C85F31B6F2B1700CF42CF /* Frameworks */,
-				D88C85F41B6F2B1700CF42CF /* Resources */,
-				D813DA4B1BB1BBC300BEB501 /* Run Script */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D88C85F91B6F2B1700CF42CF /* PBXTargetDependency */,
-			);
-			name = RxMultipeerTests;
-			productName = RxMultipeerTests;
-			productReference = D88C85F61B6F2B1700CF42CF /* RxMultipeerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -327,9 +282,6 @@
 						CreatedOnToolsVersion = 6.4;
 					};
 					D88C85EA1B6F2B1700CF42CF = {
-						CreatedOnToolsVersion = 6.4;
-					};
-					D88C85F51B6F2B1700CF42CF = {
 						CreatedOnToolsVersion = 6.4;
 					};
 				};
@@ -348,7 +300,6 @@
 			projectRoot = "";
 			targets = (
 				D88C85EA1B6F2B1700CF42CF /* RxMultipeer */,
-				D88C85F51B6F2B1700CF42CF /* RxMultipeerTests */,
 				D8236D511B71EA7800EF5DE6 /* RxMultipeer Example */,
 			);
 		};
@@ -372,36 +323,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D88C85F41B6F2B1700CF42CF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D86675A51C6B40FD005A9A72 /* Data.txt in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		D813DA4B1BB1BBC300BEB501 /* Run Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
-			);
-			name = "Run Script";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
 		D825685A1C6949DA005ADB0F /* Copy Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -444,14 +368,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D88C85F21B6F2B1700CF42CF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D88C860A1B6F307700CF42CF /* IntegrationSpec.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -459,11 +375,6 @@
 			isa = PBXTargetDependency;
 			target = D88C85EA1B6F2B1700CF42CF /* RxMultipeer */;
 			targetProxy = D825685B1C69506C005ADB0F /* PBXContainerItemProxy */;
-		};
-		D88C85F91B6F2B1700CF42CF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D88C85EA1B6F2B1700CF42CF /* RxMultipeer */;
-			targetProxy = D88C85F81B6F2B1700CF42CF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -653,38 +564,6 @@
 			};
 			name = Release;
 		};
-		D88C86051B6F2B1700CF42CF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "RxMultipeerTests/Supporting Files/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nathankot.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		D88C86061B6F2B1700CF42CF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = "RxMultipeerTests/Supporting Files/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nathankot.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -711,15 +590,6 @@
 			buildConfigurations = (
 				D88C86021B6F2B1700CF42CF /* Debug */,
 				D88C86031B6F2B1700CF42CF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D88C86041B6F2B1700CF42CF /* Build configuration list for PBXNativeTarget "RxMultipeerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D88C86051B6F2B1700CF42CF /* Debug */,
-				D88C86061B6F2B1700CF42CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
